@@ -1,7 +1,10 @@
-console.log("Up and running!");
-let cardOne = "queen";
-let cardTwo = "king";
-let cardThree = "queen";
-let cardFour = "king";
-console.log("User Flipped " + cardFour);
+let cards = ["queen", "queen", "king", "king"];
+
+let cardsInPlay = [];
+
+let cardOne = cards[0];
+
+cardsInPlay.push(cardOne);
+
 console.log("User Flipped " + cardOne);
+console.log("User Flipped " + cards[2]);
